@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+s1 = SolarSystem.create(name: "sol1")
+s2 = SolarSystem.create(name: "sol2")
