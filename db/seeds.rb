@@ -7,5 +7,3 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-s1 = SolarSystem.create(name: "sol1")
-s2 = SolarSystem.create(name: "sol2")
