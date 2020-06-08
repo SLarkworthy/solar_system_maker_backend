@@ -2,7 +2,7 @@ class Api::V1::SolarSystemsController < ApplicationController
 
     def index 
         solar_systems = SolarSystem.all
-        render json: solar_systems
+        render json: SolarSystemSerializer.new(solar_systems)
     end
 
     def create
