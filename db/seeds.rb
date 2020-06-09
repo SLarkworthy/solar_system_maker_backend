@@ -8,6 +8,7 @@
 
 
 Star.create(name: "biglight", spectral_type: "O", solar_system_id: 1)
+Star.create(name: "smalllight", spectral_type: "M", solar_system_id: 4)
 
 
 s1 = SolarSystem.create(name: "sol1")
