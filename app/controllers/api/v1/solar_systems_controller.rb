@@ -14,6 +14,11 @@ class Api::V1::SolarSystemsController < ApplicationController
         end
     end
 
+    def show 
+        solar_system = SolarSystem.find_by(id: params[:id])
+        render json: SolarSystemSerializer.new(solar_system)
+    end
+
     private
 
         def solar_system_params
