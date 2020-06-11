@@ -6,10 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
-Star.create(name: "biglight", spectral_type: "O", solar_system_id: 1)
-Star.create(name: "smalllight", spectral_type: "M", solar_system_id: 4)
-
+SolarSystem.destroy_all
+Star.destroy_all
 
 s1 = SolarSystem.create(name: "sol1")
+s1.create_star({name: "biglight", spectral_type: "O"})
+
 s2 = SolarSystem.create(name: "sol2")
+s2.create_star({name: "smalllight", spectral_type: "M"})

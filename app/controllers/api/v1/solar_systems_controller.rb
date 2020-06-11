@@ -8,7 +8,7 @@ class Api::V1::SolarSystemsController < ApplicationController
     def create
         solar_system = SolarSystem.new(solar_system_params)
         if solar_system.save
-            render json: solar_system, status: :accepted
+            render json: SolarSystemSerializer.new(solar_system), status: :accepted
         else
             render json: {errors: solar_system.errors.full_messages}, status: :unprocessible_entity
         end
