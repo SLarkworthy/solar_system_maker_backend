@@ -8,9 +8,21 @@
 
 SolarSystem.destroy_all
 Star.destroy_all
+Planet.destroy_all
 
 s1 = SolarSystem.create(name: "sol1")
 s1.create_star({name: "biglight", spectral_type: "O"})
+s1.planets.create([{name: "first planet!", composition: "rocky", size: "small", rings: "true"},
+{name: "second planet!", composition: "earth-like", size: "medium", rings: "true"},
+{name: "third planet!", composition: "rocky", size: "large", rings: "true"},
+{name: "fourth planet!", composition: "gaseous", size: "large", rings: "true"},
+{name: "fifth planet!", composition: "rocky", size: "small", rings: "true"}
+])
 
 s2 = SolarSystem.create(name: "sol2")
 s2.create_star({name: "smalllight", spectral_type: "M"})
+s2.planets.create([{name: "first planet!", composition: "rocky", size: "small", rings: "true"},
+{name: "second planet!", composition: "earth-like", size: "medium", rings: "true"},
+{name: "third planet!", composition: "rocky", size: "large", rings: "true"},
+{name: "fourth planet!", composition: "gaseous", size: "large", rings: "true"}
+])
