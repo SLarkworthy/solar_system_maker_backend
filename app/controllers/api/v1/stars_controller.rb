@@ -10,7 +10,7 @@ class Api::V1::StarsController < ApplicationController
         if star.save
             render json: StarSerializer.new(star), status: :accepted
         else
-            render json: {errors: star.errors.full_messages}, status: :unprocessible_entity
+            render json: {errors: star.errors.full_messages}, status: :unprocessable_entity
         end
     end
 

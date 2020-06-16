@@ -9,7 +9,7 @@ class Api::V1::PlanetsController < ApplicationController
         if planet.save
             render json: planet, status: :accepted
         else
-            render json: {errors: planet.errors.full_messages}, status: :unprocessible_entity
+            render json: {errors: planet.errors.full_messages}, status: :unprocessable_entity
         end
     end
 

@@ -10,7 +10,7 @@ class Api::V1::SolarSystemsController < ApplicationController
         if solar_system.save
             render json: SolarSystemSerializer.new(solar_system), status: :accepted
         else
-            render json: {errors: solar_system.errors.full_messages}, status: :unprocessible_entity
+            render json: {errors: solar_system.errors.full_messages}, status: :unprocessable_entity
         end
     end
 
