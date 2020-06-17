@@ -1,24 +1,18 @@
-# README
+## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Solar System Generator
 
-Things you may want to cover:
+This is the rails API for my first javascript project, found here: https://github.com/SLarkworthy/solar_system_maker_frontend
 
-* Ruby version
+# DESCRIPTION
 
-* System dependencies
+Together with the front end, this prject allows a user to make up a fake solar system and see a visual interactive image of it. A user creates a solar system with a name, followed by a sun with a spectral type desciption that changes its appearance. Then, a user can design 1-5 planets with attributes like name, composition, size, and whether or not it has rings. When all planets are designed, the final image appears. A user can also view and interact with other users' solar systems. 
 
-* Configuration
+## Contributing
 
-* Database creation
+Bug reports and pull requests are welcome on GitHub at https://github.com/SLarkworthy/MyMediaTracker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
-* Database initialization
+## License
 
-* How to run the test suite
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
