@@ -6,7 +6,7 @@ This is the rails API for my first javascript project, found here: https://githu
 
 # DESCRIPTION
 
-Together with the front end, this prject allows a user to make up a fake solar system and see a visual interactive image of it. A user creates a solar system with a name, followed by a sun with a spectral type desciption that changes its appearance. Then, a user can design 1-5 planets with attributes like name, composition, size, and whether or not it has rings. When all planets are designed, the final image appears. A user can also view and interact with other users' solar systems. 
+Together with the front end, this project allows a user to make up a fake solar system and see a visual interactive image of it. A user creates a solar system with a name, followed by a sun with a spectral type desciption that changes its appearance. Then, a user can design 1-5 planets with attributes like name, composition, size, and whether or not it has rings. When all planets are designed, the final image appears. A user can also view and interact with other users' solar systems. 
 
 ## Contributing
 
