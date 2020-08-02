@@ -2,7 +2,7 @@
 
 # Solar System Generator
 
-This is the rails API for my first javascript project, found here: https://github.com/SLarkworthy/solar_system_maker_frontend
+This is the rails API for my first vanilla javascript project, frontend found here: https://github.com/SLarkworthy/solar_system_maker_frontend
 
 # DESCRIPTION
 hosted here: https://solar-system-generator.netlify.app/
